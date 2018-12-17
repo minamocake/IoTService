@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings">
+        <EditTextPreference
+            android:key="deviceID_key"
+            android:title="Device ID"
+            android:dialogTitle="Device ID"
+            android:summary="DeviceID" />
+        <EditTextPreference
+            android:key="serviceURL_key"
+            android:title="Server URL"
+            android:dialogTitle="Server URL"
+            android:summary="ServerURL" />
+    </PreferenceCategory>
+</PreferenceScreen>
